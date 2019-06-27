@@ -1,0 +1,2 @@
+0:0:0:0:0:0:0:1 - - [27/Jun/2019:10:39:47 +0800] "GET /demo_springMVC_maven HTTP/1.1" 302 - http-bio-8080-exec-1 0
+0:0:0:0:0:0:0:1 - - [27/Jun/2019:10:39:49 +0800] "GET /demo_springMVC_maven/ HTTP/1.1" 200 158 http-bio-8080-exec-2 1689

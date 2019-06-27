@@ -15,4 +15,28 @@
 	    <scope>provided</scope>
 	</dependency>
   </dependencies>
+  	<!-- 配置build环境 -->
+   <build>
+       <plugins>
+          <plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.2</version>
+				<configuration>
+					<source>1.7</source>
+					<target>1.7</target>
+					<encoding>utf-8</encoding>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.tomcat.maven</groupId>
+				<artifactId>tomcat7-maven-plugin</artifactId>
+				<version>2.2</version>
+				<configuration>
+					<port>8080</port>
+					<path>/demo_springMVC_maven</path>
+				</configuration>
+			</plugin>      
+       </plugins>
+  </build> 
 </project>
