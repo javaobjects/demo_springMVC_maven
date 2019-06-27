@@ -15,6 +15,20 @@ maven:中央仓库 编译，打包测试，部署 一体化 [maven官网](https:
 
 ![](65-Images/20.png)
 
+Maven的中央仓库：https://repo.maven.apache.org/maven2/
+
+
+![](65-Images/21.png)
+
++ 查看Eclipse中Maven默认本地仓库
+
+window ---> Preferences ---> Maven ---> User Settings
+
+![](65-Images/22.png)
+
+从中可以看到maven默认本地仓库存放在C盘，那么我们需要更改其默认路径，那么如何更改呢？参考博客[Java-如何设置Maven本地仓库不使用C盘默认仓库](https://www.jianshu.com/p/056ae13ed684)
+
+
 1. 使用Eclipse新建一个Maven工程
 
 ![](65-Images/1.png)
@@ -110,6 +124,10 @@ The superclass "javax.servlet.http.HttpServlet" was not found on the Java Build 
 </project>
 ```
 只要一保存，将会自动下载jar包
+
+
+
+
 
 **以上就是我关于 Java-如何使用Maven构建工程  知识点的整理与总结的全部内容 [另附源码](https://github.com/javaobjects/demo_springMVC_maven)**
 
